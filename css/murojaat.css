@@ -1,0 +1,175 @@
+
+.clearfix {
+	position: relative;
+	top: 3%;
+}
+
+
+.navigation {
+	float: left;
+	width: 38%;
+	margin: 3% 5% 5% 5%;
+	padding: 10px;
+}
+
+.inputNum {
+	font-family: verdana;
+	color: #333;
+}
+
+/*Murojaatni tekshirish menyusi*/
+.application {
+	width: 75%;
+    padding: 12px 20px;
+    margin: 5% 0;
+    font-family: verdana;
+    font-weight: 500;
+    font-size: 90%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+	
+}
+
+.application:focus {
+	border: 2px solid #00008B;
+}
+
+.text_application {
+	font-family:"Segoe UI",Arial,sans-serif;
+	font-weight: 400;
+	font-size: 130%;
+	color: #00008B;
+}
+
+/*Tekshirish tugmasi*/
+
+/*Hurmatli foydalanuvchi*/
+.matn {
+	font-family:"Segoe UI",Arial,sans-serif;
+	font-weight: 400;
+	color: #00008B;
+}
+
+.text_nav {
+	font-family: verdana;
+	font-size: 98%;
+}
+
+.text_border {
+	color: #555;
+	background-color: #eee;
+	padding: 10px 15px 15px 20px;
+}
+
+
+
+/*Ma'lumot kititiladigan bo'lim*/
+.kirish {
+	color: #555;
+	margin-top: 5%;
+	font-family: "calibri light";
+	/*font-size: 120%;*/
+	text-align: center;
+	font-style: italic;
+	font-weight: 500;
+}
+
+
+
+.section {
+	margin-top: 5%;
+	margin-right: 5%;
+	margin-left: 49%;
+	padding: 20px;
+	color: #555;
+	border-left: 5px solid #fff;
+}
+
+
+/*FISh*/
+.WarningText {
+	font-family: verdana;
+	font-size: 80%;
+	color: red;
+	margin: 0;
+	padding: 0 0 2% 0;
+}
+
+.form_menu {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    font-size: 90%;
+    font-family: verdana;
+    color: #333;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+	
+}
+
+.form_menu:focus {
+	border: 2px solid #00008B;
+}
+
+
+/*Shaharni tanlang*/
+.select_menu {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: #eee;
+	
+}
+
+/*Fayllarni tanlang:*/
+.button {
+	clear: right;
+  display: block;
+  margin-left: 5%;
+}
+
+/*Yuborish tugmasi*/
+.send {
+	font-family: verdana;
+	background-color: #a1a1a1;
+	color: white;
+	border-radius: 4px;
+	padding: 10px 15px;
+	margin-top: 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.send:hover, .send:visited {
+	background-color: #777;
+}
+
+
+/*Matn muharriri*/
+.text_prop {
+	font-family: verdana;
+	font-size: 100%;
+}
+
+
+.footer_ {
+	padding: 1em;
+	margin: 4em;
+    color: black;
+    background-color: white;
+    clear: left;
+    text-align: center;
+    visibility: hidden;
+}
