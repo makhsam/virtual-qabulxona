@@ -1,47 +1,36 @@
-/*home*/
-.home {
-	position: relative;
-	left: 30px;
-	float: left;
+.home,li.lang {
+    position: relative
 }
 
+.home {
+    left: 30px;
+    float: left
+}
 
-/*language part*/
 ul.lang {
-	list-style-type: none;
-	margin: 5px;
-	padding: 0;
-	overflow: hidden;
-	background-color: #424242;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #424242
 }
 
 li.lang {
-	position: relative;
-	right: 25px;
-	float: right;
-	
+    right: 25px;
+    float: right
 }
 
 a {
-	display: block;
-	padding: 14px 20px;
-	margin-top: 3px;
-	color: white;
-	font-family: calibri;
-	font-size: 14px;
-	text-decoration: none;
+    display: block;
+    padding: 14px;
+    margin-top: 3px;
+    font-size: 14px;
+    text-decoration: none
 }
 
-li.lang a:hover:not(.active) {
-    text-decoration: underline;
+.active,a:hover {
+    text-decoration: underline
 }
 
-.active {
-	text-decoration: underline;
-}
-
-
-.slash {
-	color: white;
-	font-family: calibri;
+.slash,a {
+    color: #fff;
+    font-family: calibri
 }
